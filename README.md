@@ -57,9 +57,6 @@
 - Run `docker-compose up` to start the containers
 - Run `docker-compose down` to remove the running containers
 
-> This will spin up a mongoDB instance locally, you can also add in the future other stuff like redis, elastic search ...
-> If using docker doesn't appeal you, feel free to install mondoDB manually or to use a service like mongoDB Atlas instead.
-
 #### Start server for development
 
 - Run `npm run start:dev`
