@@ -7,9 +7,9 @@ import { NewTodoInput } from "./input";
 
 @Service() // Dependencies injection
 export default class TodoService {
-    private todoModel: TodoModel
-    constructor() {
-        this.todoModel = new TodoModel()
+
+    constructor(private readonly todoModel: TodoModel) {
+
     }
 
     public async getById(_id: ObjectId): Promise<Todo | null> {
